@@ -54,8 +54,9 @@ margin-bottom:40px;
 
 .blog-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
-gap:30px;
+grid-template-columns:repeat(auto-fit,minmax(380px,420px));
+gap:35px;
+justify-content:center;
 }
 
 /* CARD */
@@ -66,6 +67,8 @@ border-radius:28px;
 overflow:hidden;
 border:1px solid #e2e8f0;
 transition:0.3s;
+max-width:420px;
+width:100%;
 }
 
 .blog-card:hover{
@@ -130,6 +133,10 @@ font-size:28px;
 
 .blog-content h3{
 font-size:24px;
+}
+
+.blog-grid{
+grid-template-columns:1fr;
 }
 
 }
