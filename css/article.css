@@ -6,7 +6,7 @@ box-sizing:border-box;
 
 body{
 font-family:'Poppins',sans-serif;
-background:#f1f5f9;
+background:#ffffff;
 color:#0f172a;
 line-height:1.7;
 overflow-x:hidden;
@@ -17,7 +17,7 @@ overflow-x:hidden;
 .hero{
 padding:120px 20px 80px;
 background:
-linear-gradient(135deg,#0f172a 0%,#111827 100%);
+linear-gradient(135deg,#2563eb 0%,#0ea5e9 100%);
 text-align:center;
 position:relative;
 overflow:hidden;
@@ -30,7 +30,7 @@ top:-120px;
 right:-120px;
 width:350px;
 height:350px;
-background:#38bdf8;
+background:white;
 opacity:0.08;
 border-radius:50%;
 }
@@ -42,8 +42,8 @@ bottom:-120px;
 left:-120px;
 width:320px;
 height:320px;
-background:#2563eb;
-opacity:0.08;
+background:white;
+opacity:0.06;
 border-radius:50%;
 }
 
@@ -59,13 +59,13 @@ display:inline-flex;
 align-items:center;
 gap:8px;
 padding:10px 20px;
-background:rgba(255,255,255,0.08);
-border:1px solid rgba(255,255,255,0.1);
+background:rgba(255,255,255,0.15);
+border:1px solid rgba(255,255,255,0.2);
 backdrop-filter:blur(10px);
 border-radius:999px;
 font-size:13px;
 font-weight:600;
-color:#38bdf8;
+color:white;
 margin-bottom:24px;
 }
 
@@ -80,7 +80,7 @@ letter-spacing:-2px;
 
 .hero p{
 font-size:18px;
-color:#cbd5e1;
+color:#e0f2fe;
 max-width:760px;
 margin:auto;
 }
