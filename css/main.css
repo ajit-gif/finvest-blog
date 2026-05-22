@@ -100,7 +100,7 @@ line-height:1.9;
 .hero-btns{
 display:flex;
 gap:18px;
-margin-top:32px;
+margin-top:10px;
 flex-wrap:wrap;
 }
 
