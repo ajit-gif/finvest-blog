@@ -14,9 +14,9 @@ overflow-x:hidden;
 /* PAGE */
 
 .blogs-page{
-max-width:1350px;
+max-width:1500px;
 margin:auto;
-padding:70px 6%;
+padding:70px 5%;
 }
 
 /* BACK BUTTON */
@@ -72,8 +72,8 @@ line-height:1.9;
 
 .blog-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(360px,1fr));
-gap:35px;
+grid-template-columns:repeat(4,1fr);
+gap:28px;
 }
 
 /* CARD */
@@ -82,7 +82,7 @@ gap:35px;
 position:relative;
 background:
 linear-gradient(145deg,#111827 0%,#0f172a 100%);
-border-radius:34px;
+border-radius:30px;
 overflow:hidden;
 border:1px solid rgba(255,255,255,0.06);
 transition:0.4s;
@@ -99,7 +99,7 @@ box-shadow:0 25px 70px rgba(0,0,0,0.45);
 
 .blog-card img{
 width:100%;
-height:250px;
+height:210px;
 object-fit:cover;
 display:block;
 transition:0.4s;
@@ -112,7 +112,7 @@ transform:scale(1.05);
 /* CONTENT */
 
 .blog-content{
-padding:30px;
+padding:24px;
 }
 
 /* TAG */
@@ -120,23 +120,23 @@ padding:30px;
 .blog-tag{
 display:inline-flex;
 align-items:center;
-padding:9px 18px;
+padding:8px 16px;
 background:rgba(56,189,248,0.12);
 border:1px solid rgba(56,189,248,0.2);
 border-radius:999px;
-font-size:12px;
+font-size:11px;
 font-weight:600;
 letter-spacing:1px;
 color:#38bdf8;
-margin-bottom:22px;
+margin-bottom:18px;
 }
 
 /* TITLE */
 
 .blog-content h3{
-font-size:34px;
-line-height:1.2;
-margin-bottom:18px;
+font-size:24px;
+line-height:1.3;
+margin-bottom:16px;
 font-weight:700;
 letter-spacing:-1px;
 }
@@ -145,9 +145,9 @@ letter-spacing:-1px;
 
 .blog-content p{
 color:#94a3b8;
-font-size:16px;
-line-height:1.9;
-margin-bottom:32px;
+font-size:14px;
+line-height:1.8;
+margin-bottom:26px;
 }
 
 /* FOOTER */
@@ -156,15 +156,15 @@ margin-bottom:32px;
 display:flex;
 justify-content:space-between;
 align-items:center;
-gap:15px;
-font-size:14px;
+gap:12px;
+font-size:13px;
 color:#64748b;
 }
 
 .blog-footer a{
 display:inline-flex;
 align-items:center;
-gap:8px;
+gap:6px;
 text-decoration:none;
 color:#38bdf8;
 font-weight:600;
@@ -172,7 +172,17 @@ transition:0.3s;
 }
 
 .blog-footer a:hover{
-gap:12px;
+gap:10px;
+}
+
+/* TABLET */
+
+@media(max-width:1200px){
+
+.blog-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
 }
 
 /* MOBILE */
@@ -195,15 +205,15 @@ margin-bottom:40px;
 
 .blog-grid{
 grid-template-columns:1fr;
-gap:28px;
+gap:24px;
 }
 
 .blog-content{
-padding:24px;
+padding:22px;
 }
 
 .blog-content h3{
-font-size:26px;
+font-size:24px;
 }
 
 .blog-content p{
